@@ -54,8 +54,9 @@ namespace Scipts.Intersection
 		/// Value is negative if the point is inside the rect</returns>
 		public float Distance(Vector2 from)
 		{
-			// Todo 
-			throw new NotImplementedException();
+			var dx = Mathf.Abs(from.x - Center.x) - Width / 2f;
+			var dy = Mathf.Abs(from.y - Center.y) - Heigth / 2f;
+			return Mathf.Sqrt(dx * dx + dy * dy);
 		}
 
 		#endregion

@@ -10,7 +10,6 @@ namespace Scipts
 		void Update () {
 			Debug.Log("All:" + SelfRegister.IntersectObjects.Count);
 			Debug.Log("Rect:" + SelfRegister.IntersectObjects.Count(x => x is RectSelfRegister));
-			Debug.Log("Other:" + SelfRegister.IntersectObjects.Count(x => x is OtherSelfRegister));
 		}
 	}
 }
