@@ -11,7 +11,7 @@ namespace Scipts.Shapes
 	{
 		bool Ready { get; set; }
 		bool InitFailed { get; set; }
-		Vector2 Center { get; set; }
+		Vector2 Position { get; set; }
 
 		void Initialize(ShapeParameter param);
 		float Distance(Vector2 from);
