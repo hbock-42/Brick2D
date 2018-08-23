@@ -4,7 +4,7 @@ using UnityEngine;
 namespace Scipts.Intersection
 {
 	/// <summary>
-	/// Base class of which solid object inherits from
+	/// Base class from which solid object inherits from
 	/// </summary>
 	public abstract class SelfRegister : MonoBehaviour
 	{
